@@ -4,34 +4,34 @@ SMTP TCP Mailer (Go)
 A simple and minimal email sender built in Go using SMTP over TCP.
 This project shows how to build a raw SMTP message, authenticate, and send it to a mail server (like Gmail) using Go’s built-in net/smtp package.
 
-Features
+# Features :-
 
-Plain-text email sending
+  Plain-text email sending
 
-SMTP authentication
+  SMTP authentication
 
-Works with Gmail (App Password required)
+  Works with Gmail (App Password required)
 
-Clean and easy-to-read code
+  Clean and easy-to-read code
 
-Usage
+# Usage :-
 
-Update the config in main.go with your:
+  Update the config in main.go with your:
 
-SMTP host
+  SMTP host
 
-Port
+  Port
 
-Sender email
+  Sender email
 
-App password
+  App password
 
-Recipient address
+  Recipient address
 
-Then run:
+# Then run:
 
-go run main.go
+  go run main.go
 
-Purpose
+# Purpose:-
 
-Made for learning how SMTP works at a basic TCP level in Go.
+  Made for learning how SMTP works at a basic TCP level in Go.
